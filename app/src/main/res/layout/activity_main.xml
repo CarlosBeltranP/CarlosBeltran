@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.charlie.carlosbeltran.MainActivity"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#00BCD4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleY="1.2"
+            android:scaleX="1.2"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carlos Beltrán"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textColor="#FEFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingeniería Informática"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FEFFFF" />
+    </LinearLayout>
+
+    <!-- Contact Info. -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/face"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="charlie.bltrn"
+            android:textColor="#000"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/github"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CarlosBeltranP"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:paddingLeft="15dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatsapp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="7675 1821"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:paddingLeft="12dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gmail"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="carlos.ebponce@gmail.com"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:paddingLeft="12dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="normal"
+            android:text="Power by Charlie´s Apps"
+            android:gravity="center_horizontal"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>
